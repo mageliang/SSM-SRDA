@@ -11,17 +11,13 @@ Please cite our paper if you find it useful for your research.
 ## Installation
 * Install Pytorch 1.3.0 from http://pytorch.org with python 3.6 and CUDA 10.1
 
-* Clone this repo
-```
-git clone https://github.com/tangzhenjie/SRDA-Net
-cd SRDA-Net
-```
+
 ## Dataset
 * Download the [Massachusetts Buildings Dataset](https://www.cs.toronto.edu/~vmnih/data/) 
  Training Set as the source domain, and put it `./datasets` folder
  
  * Download the [Inria Aerial Image Labeling Dataset](https://project.inria.fr/aerialimagelabeling/)
- as the target domain, and put it to `./datasets` folder.
+ as the target domain, and put it to `./datasets` folder
  
  * Create the Mass-Inria dataset
  ```
