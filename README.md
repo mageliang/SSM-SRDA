@@ -20,12 +20,7 @@ Please cite our paper if you find it useful for your research.
  as the target domain, and put it to `./datasets` folder
  
  * Create the Mass-Inria dataset
- ```
-cd datasets
-python create_train_oneclass.py
-python create_val_oneclass.py/home/yus/Desktop/SRDA-Net-master/train.py
-
-```
+ 
 ## Acknowledgment
 This code is heavily borrowed from [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
 
