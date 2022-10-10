@@ -27,20 +27,20 @@ This code is heavily borrowed from [CycleGAN](https://github.com/junyanz/pytorch
 
 
 ###############################################
-## 训练
+## train
 python train.py --name your_file_name --dataroot ./datasets/mass_inria  --model ssmsrdanet_fa --num_classes 2 --dataset_mode srdanet --A_crop_size 114 --B_crop_size 380 --batch_size 2
 
-## 断点训练
+## continue train
 python train.py --name your_file_name --dataroot ./datasets/mass_inria --model ssmsrdanet_fa --num_classes 2 --A_crop_size 114 --B_crop_size 380 --batch_size 10 --dataset_mode srdanet --continue_train  --gpu_ids 0,1
 
 ########################################
-## 测试
+## val
 
 python val_manyclass.py --name your_file_name --dataroot ./datasets/mass_inria --model ssmsrdanet_fa --num_classes 2 --dataset_mode srdanetval --resize_size 380
 
 
 ####################################
-## 输出结果图
+## output
 python output_val_result_images.py --name your_file_name --dataroot ./datasets/mass_inria --model ssmsrdanet_fa --num_classes 2 --dataset_mode srdanetval --resize_size 128 --gpu_ids 0
 
 
